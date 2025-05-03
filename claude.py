@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 # Database connection (replace with your actual connection details)
 from sqlalchemy import create_engine
-engine = create_engine('mysql+pymysql://username:password@localhost/starbucks_db')
+from database import engine
 
 # Load data
 df_suggestion = pd.read_sql('SELECT * FROM sbf_suggestion', engine)
