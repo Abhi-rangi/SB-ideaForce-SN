@@ -1,0 +1,28 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                success   No. Observations:                  100
+Model:                          Logit   Df Residuals:                       85
+Method:                           MLE   Df Model:                           14
+Date:                Sat, 03 May 2025   Pseudo R-squ.:                  -1.132
+Time:                        02:17:36   Log-Likelihood:                -69.315
+converged:                       True   LL-Null:                       -32.508
+Covariance Type:            nonrobust   LLR p-value:                     1.000
+================================================================================================================
+                                                   coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------
+C(category)[T.Building+Community]                     0      1.288          0      1.000      -2.524       2.524
+C(category)[T.Coffee+%26+Espresso+Drinks]             0      0.584          0      1.000      -1.144       1.144
+C(category)[T.Food]                                   0      0.858          0      1.000      -1.681       1.681
+C(category)[T.Frappuccino+Beverages]                  0      1.510          0      1.000      -2.960       2.960
+C(category)[T.Merchandise+%26+Music]                  0      1.469          0      1.000      -2.879       2.879
+C(category)[T.New+Technology]                         0      1.476          0      1.000      -2.893       2.893
+C(category)[T.Ordering,+Payment+%26+Pick-Up]          0      0.724          0      1.000      -1.418       1.418
+C(category)[T.Other+Experience+Ideas]                 0      1.060          0      1.000      -2.077       2.077
+C(category)[T.Other+Product+Ideas]                    0      1.532          0      1.000      -3.003       3.003
+C(category)[T.Social+Responsibility]                  0      1.204          0      1.000      -2.361       2.361
+C(category)[T.Starbucks+Card]                         0      0.645          0      1.000      -1.265       1.265
+C(category)[T.Tea+%26+Other+Drinks]                   0      0.931          0      1.000      -1.825       1.825
+votes                                                 0    5.4e-06          0      1.000   -1.06e-05    1.06e-05
+n_comments                                            0      0.011          0      1.000      -0.021       0.021
+author_betweenness                                    0    134.565          0      1.000    -263.742     263.742
+================================================================================================================

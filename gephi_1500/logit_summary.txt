@@ -1,0 +1,34 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                success   No. Observations:                 1500
+Model:                          Logit   Df Residuals:                     1483
+Method:                           MLE   Df Model:                           16
+Date:                Sat, 03 May 2025   Pseudo R-squ.:                  0.7515
+Time:                        03:31:47   Log-Likelihood:                -121.18
+converged:                      False   LL-Null:                       -487.62
+Covariance Type:            nonrobust   LLR p-value:                1.291e-145
+================================================================================================================
+                                                   coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------
+C(category)[T.Building+Community]              -12.2703     39.322     -0.312      0.755     -89.340      64.800
+C(category)[T.Coffee+%26+Espresso+Drinks]       -5.4079      0.604     -8.949      0.000      -6.592      -4.224
+C(category)[T.Food]                             -4.9137      0.618     -7.950      0.000      -6.125      -3.702
+C(category)[T.Frappuccino+Beverages]            -5.5823      0.723     -7.723      0.000      -6.999      -4.165
+C(category)[T.Merchandise+%26+Music]            -6.4631      1.001     -6.455      0.000      -8.426      -4.501
+C(category)[T.New+Technology]                   -5.1512      0.905     -5.691      0.000      -6.925      -3.377
+C(category)[T.Ordering,+Payment+%26+Pick-Up]    -5.2978      0.673     -7.871      0.000      -6.617      -3.979
+C(category)[T.Other+Experience+Ideas]           -5.8124      0.948     -6.130      0.000      -7.671      -3.954
+C(category)[T.Other+Involvement+Ideas]         -23.7691   1.18e+04     -0.002      0.998   -2.32e+04    2.31e+04
+C(category)[T.Other+Product+Ideas]              -6.0671      1.076     -5.637      0.000      -8.177      -3.958
+C(category)[T.Outside+USA]                     -21.2551   1.37e+04     -0.002      0.999   -2.68e+04    2.68e+04
+C(category)[T.Social+Responsibility]            -5.6788      1.078     -5.266      0.000      -7.792      -3.565
+C(category)[T.Starbucks+Card]                   -5.6022      0.548    -10.221      0.000      -6.676      -4.528
+C(category)[T.Tea+%26+Other+Drinks]             -6.4199      0.917     -7.002      0.000      -8.217      -4.623
+votes                                            0.0008    7.9e-05     10.097      0.000       0.001       0.001
+n_comments                                      -0.0615      0.015     -4.200      0.000      -0.090      -0.033
+author_betweenness                            -258.2097    288.340     -0.896      0.371    -823.347     306.927
+================================================================================================================
+
+Possibly complete quasi-separation: A fraction 0.23 of observations can be
+perfectly predicted. This might indicate that there is complete
+quasi-separation. In this case some parameters will not be identified.
