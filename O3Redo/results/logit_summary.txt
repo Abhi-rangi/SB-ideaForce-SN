@@ -1,0 +1,4 @@
+===== Ridge‑regularised Logit (sklearn) =====
+Best C    : 0.01
+Train AUC : 0.931
+Test  AUC : 0.897
